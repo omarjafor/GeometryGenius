@@ -20,3 +20,15 @@ function calculateRectangleArea(){
     const area = width*length;
     setArea('rectangle-area', area);
 }
+function calculateParallelogramArea(){
+    const base = getInputValue('parallelogram-base');
+    const height = getInputValue('parallelogram-height')
+    const area = base * height;
+    setArea('parallelogram-area', area);
+}
+function calculateEllipseArea(){
+    const large = getInputValue('ellipse-large');
+    const short = getInputValue('ellipse-short');
+    const area = (3.1415 * large * short).toFixed(3);
+    setArea('ellipse-area', area);
+}
