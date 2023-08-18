@@ -17,9 +17,9 @@
         <!-- main container -->
         <div class="flex flex-col lg:flex-row mt-12">
             <!-- shape container -->
-            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ml-8">
                 <!-- Triangle card -->
-                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300">
+                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300 border-2 border-solid border-sky-400">
                     <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">Triangle</h2>
@@ -38,7 +38,7 @@
                     </div>
                   </div>
                 <!-- Rectangle card -->
-                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300">
+                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300 border-2 border-solid border-sky-400">
                     <figure><img src="/images/rectangle.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">Rectangle</h2>
@@ -58,7 +58,7 @@
                   </div>
                 
                 <!-- parallelogram card -->
-                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300">
+                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300 border-2 border-solid border-sky-400">
                     <figure><img src="/images/parallelogram.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">parallelogram</h2>
@@ -77,7 +77,7 @@
                     </div>
                   </div>
                 <!-- Ellipse card -->
-                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300">
+                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300 border-2 border-solid border-sky-400">
                     <figure><img src="/images/ellipse.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">Ellipse</h2>
@@ -96,16 +96,16 @@
                     </div>
                 </div>
                 <!-- Pentagon Card -->
-                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300">
+                <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300 border-2 border-solid border-sky-400">
                   <figure><img src="/images/pentagon.png" alt="Shoes" /></figure>
                   <div class="card-body">
                     <h2 class="card-title">Pentagon</h2>
                     <p>Area (A) = 0.5 × p × a</p>
                     <p>
-                      <input type="text" class="border bg-gray-200 text-xl w-24 px-2" placeholder="large" name="" id="ellipse-major-radius">
+                      <input type="text" class="border bg-gray-200 text-xl w-24 px-2" placeholder="perimeter" name="" id="ellipse-major-radius">
                       <span class="ml-2">cm</span>
                       <!-- ellipse height -->
-                      <input type="text" class="ml-4 border bg-gray-200 text-xl w-24 px-2" placeholder="short" name="" id="ellipse-minor-radius">
+                      <input type="text" class="ml-4 border bg-gray-200 text-xl w-24 px-2" placeholder="apothem" name="" id="ellipse-minor-radius">
                       <span class="ml-2">cm</span>
                     </p>
                     <p class="text-2xl">Area: <span id="ellipse-area">0</span> cm<sup>2</sup></p>
@@ -115,16 +115,16 @@
                   </div>
               </div>
               <!-- Rhombus Card -->
-              <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300">
+              <div class="card w-96 bg-base-100 shadow-xl hover:bg-sky-300 border-2 border-solid border-sky-400">
                 <figure><img src="/images/rhombus.png" alt="Shoes" /></figure>
                 <div class="card-body">
                   <h2 class="card-title">Rhombus</h2>
                   <p>Area (A) = 0.5 × d1 × d2</p>
                   <p>
-                    <input type="text" class="border bg-gray-200 text-xl w-24 px-2" placeholder="large" name="" id="ellipse-major-radius">
+                    <input type="text" class="border bg-gray-200 text-xl w-24 px-2" placeholder="diagonals" name="" id="ellipse-major-radius">
                     <span class="ml-2">cm</span>
                     <!-- ellipse height -->
-                    <input type="text" class="ml-4 border bg-gray-200 text-xl w-24 px-2" placeholder="short" name="" id="ellipse-minor-radius">
+                    <input type="text" class="ml-4 border bg-gray-200 text-xl w-24 px-2" placeholder="diagonals" name="" id="ellipse-minor-radius">
                     <span class="ml-2">cm</span>
                   </p>
                   <p class="text-2xl">Area: <span id="ellipse-area">0</span> cm<sup>2</sup></p>
@@ -135,7 +135,7 @@
             </div>
             </div>
             <!-- area calculator -->
-            <div class="w-[400px] h-auto mr-8 border-2 border-solid border-sky-400">
+            <div class="w-[400px] h-auto m-8 border-2 border-solid border-sky-400">
                 <div class="text-4xl text-center font-semibold underline pt-4">Area Calculation</div>
                 <div id="calculation-entry">
                   
