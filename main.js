@@ -14,3 +14,9 @@ function calculateTriangleArea(){
     const area = 0.5*base*height;
     setArea('triangle-area', area);
 }
+function calculateRectangleArea(){
+    const width = getInputValue('rectangle-width');
+    const length = getInputValue('rectangle-length');
+    const area = width*length;
+    setArea('rectangle-area', area);
+}
