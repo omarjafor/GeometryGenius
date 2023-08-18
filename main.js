@@ -38,3 +38,9 @@ function calculatePentagonArea(){
     const area = 0.5 * base * height;
     setArea('pentagon-area', area);
 }
+function calculateRhombusArea(){
+    const base = getInputValue('rhombus-base');
+    const height = getInputValue('rhombus-height');
+    const area = 0.5 * base * height;
+    setArea('rhombus-area', area);
+}
