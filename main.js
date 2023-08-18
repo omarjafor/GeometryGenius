@@ -21,12 +21,6 @@ function removeItem(item){
     item.remove();
 }
 
-// calculationEntry.addEventListener('click', function(e){
-        // console.log(e.target.parentNode.parentNode.childNode);
-        // e.target.parentNode.parentNode.removeChild(e.target.parentNode);
-        // count --;
-    // })
-
 // Onclick Function ........................................
 function calculateTriangleArea(){
     const base = getInputValue('triangle-base');
@@ -54,16 +48,19 @@ function calculateEllipseArea(){
     const short = getInputValue('ellipse-short');
     const area = (3.1415 * large * short).toFixed(3);
     setArea('ellipse-area', area);
+    addOnCalculationEntry('Ellipse Area : ', area);
 }
 function calculatePentagonArea(){
     const base = getInputValue('pentagon-base');
     const height = getInputValue('pentagon-height');
     const area = 0.5 * base * height;
     setArea('pentagon-area', area);
+    addOnCalculationEntry('Pentagon Area : ', area);
 }
 function calculateRhombusArea(){
     const base = getInputValue('rhombus-base');
     const height = getInputValue('rhombus-height');
     const area = 0.5 * base * height;
     setArea('rhombus-area', area);
+    addOnCalculationEntry('Rhombus Area : ', area);
 }
